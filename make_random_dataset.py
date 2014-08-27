@@ -1,5 +1,6 @@
 """
 File designed to make the dataset.
+It will create random pairs.
 """
 
 import numpy
@@ -22,7 +23,7 @@ if __name__ == '__main__':
     im2 = numpy.zeros((total, reg, reg, 1), dtype='float32')
     Y = numpy.zeros((total, 1), dtype='uint8')
     # Define the desired transformation between views
-    transformation = 'shifts'
+    transformation = 'rotations'
 
     if transformation == 'shifts':
         # Shifts
