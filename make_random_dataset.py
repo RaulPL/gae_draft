@@ -1,3 +1,7 @@
+"""
+File designed to make the dataset.
+"""
+
 import numpy
 from pylearn2.datasets import preprocessing
 from pylearn2.utils import serial
